@@ -17,7 +17,8 @@ body {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
+  background-image: url(https://cdn.hipwallpaper.com/i/12/50/7KoMw8.jpg);
+  background-size: cover;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;

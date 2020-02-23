@@ -25,6 +25,7 @@ function createTimeBlocks() {
         rowDiv.appendChild(textB);
 
         var saveB = document.createElement("button");
+        saveB.innerHTML = ("<i class='fas fa-lock'></i>");
         saveB.setAttribute("class","saveBtn");
         saveB.setAttribute("type","button");
         saveB.setAttribute("onclick","onClick(" + i + ")");
@@ -59,7 +60,7 @@ function renderTimeBlocks() {
     var currHour = date.getHours();
     
 
-    for(var i = 9; i <= 17; i++) {
+    for(var i = 9; i <= 17; i++) {   $("button-" + i)
 
         var inPut = localStorage.getItem(i);
         if (inPut) {
